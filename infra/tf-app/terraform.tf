@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "sing1249-githubactions-rg"
-    storage_account_name = "sing1249githubactions"
+    storage_account_name = "sing1249githubactions1"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
   }

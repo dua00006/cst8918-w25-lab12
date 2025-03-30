@@ -18,7 +18,7 @@ resource "azurerm_resource_group" "backend_rg" {
 }
 
 resource "azurerm_storage_account" "backend_sa" {
-  name                     = "sing1249githubactions"
+  name                     = "sing1249githubactions1" #Accidentally did in wrong subscription so name not available. 
   resource_group_name      = azurerm_resource_group.backend_rg.name
   location                 = azurerm_resource_group.backend_rg.location
   account_tier             = "Standard"
