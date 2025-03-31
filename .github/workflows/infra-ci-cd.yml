@@ -155,6 +155,10 @@ jobs:
     environment: production
     needs: [terraform-plan]
     
+    defaults:
+      run:
+        working-directory: ./infra/tf-app
+    
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
