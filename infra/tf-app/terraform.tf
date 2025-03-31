@@ -1,7 +1,7 @@
 terraform {
   required_version = "~> 1.5"
 
-  
+
   backend "azurerm" {
     resource_group_name  = "sing1249-githubactions-rg"
     storage_account_name = "sing1249githubactions1"
