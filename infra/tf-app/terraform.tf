@@ -4,7 +4,7 @@ terraform {
     storage_account_name = "sing1249githubactions1"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
-    use_oidc             = true 
+    use_oidc             = true
   }
 
   required_providers {
